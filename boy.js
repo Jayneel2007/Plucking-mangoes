@@ -13,7 +13,7 @@ class Boy{
 this.body = Bodies.rectangle(x, y, width-20, height, options);
         this.width = width;
         this.height = height;
-        this.image = loadImage("Sprites/boy.png");
+        this.image = loadImage("boy.png");
         World.add(world, this.body);
 
 }
