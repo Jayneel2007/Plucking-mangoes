@@ -4,7 +4,7 @@ class Boy{
             
             restitution:0,
             friction:0.5,
-            density:0.5,
+            density:0.5, 
             isStatic: true
 
     
