@@ -11,7 +11,7 @@ constructor(x,y,radius){
 
     }
     
-   this.image = loadImage("Sprites/mango.png");
+   this.image = loadImage("mango.png");
     this.body = Bodies.circle(x,y,radius,options);
    this.radius = radius*2
     World.add(world,this.body)
