@@ -10,7 +10,7 @@ class Stone {
       
       this.body = Bodies.circle(x,y,radius,options);
       this.radius = radius*2
-        this.image = loadImage("Sprites/stone.png");
+        this.image = loadImage("stone.png");
         World.add(world, this.body);
     }
     display(){
